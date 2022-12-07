@@ -4,7 +4,7 @@
     <h1 class="display-4">Pagina lista </h1>
 @endsection
 
-
+@section('Cuerpo')
     <h3>Lista </h3>
     <table class="table">
     <thead class="table-dark">
@@ -30,6 +30,8 @@
         @endforeach
     </tbody>
     </table>
+@endsection
+
 
 
 
